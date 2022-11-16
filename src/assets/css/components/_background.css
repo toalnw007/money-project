@@ -1,0 +1,11 @@
+.background-cover{
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #1f40b0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}

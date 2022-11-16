@@ -1,0 +1,11 @@
+
+.form-control{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}

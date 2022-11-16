@@ -1,0 +1,6 @@
+.error-message{
+    padding: 5px 2px;
+    color: red;
+    white-space: nowrap;
+    overflow: hidden;
+}
