@@ -3,7 +3,7 @@ How to run this project ?
  - npm run serve
  
 Task Scheduler
-  pages
+  - pages
     ✅ Login
     ✅ Register
    
