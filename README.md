@@ -4,6 +4,6 @@ How to run this project ?
  
 Task Scheduler
   - pages
-    ✅ Login
-    ✅ Register
+    - ✅ Login
+    - ✅ Register
    
