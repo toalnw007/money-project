@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ["Roboto"],
+      },
       container: {
         center: true,
       },
@@ -14,3 +17,4 @@ module.exports = {
   },
   plugins: [],
 }
+

@@ -1,0 +1,29 @@
+.search {
+    position: relative; 
+    margin-top: 0.25rem; 
+    
+}
+
+.search__input {
+    height: 40px;
+    margin-top: 0;
+    padding-left: 0.875rem; 
+    background-color: rgb(255 255 255 / 0.11);
+    padding-right: 2rem; 
+    transition-duration: 300ms; 
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+    width: 20rem; 
+    border-radius: 9999px; 
+    border-color: transparent; 
+    box-shadow: none; 
+}
+
+.search__icon {
+    position: absolute; 
+    top: 50%;
+    right: 0; 
+    transform: translate(-50%, -50%);
+    margin-right: 0.75rem; 
+    width: 1.25rem; 
+    height: 1.25rem; 
+}

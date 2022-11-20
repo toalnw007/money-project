@@ -1,10 +1,22 @@
 @import "./_tailwind.css";
 
-
-
-
+@import "./fonts/_roboto.css";
 
 @import "./components/_button.css";
 @import "./components/_background.css";
 @import "./components/_form.css";
 @import "./components/_error.css";
+@import "./components/_side-nav.css";
+@import "./components/_warpper.css";
+@import "./components/_top-bar.css";
+@import "./components/_content.css";
+@import "./components/_breadcrumb.css";
+@import "./components/_search.css";
+@import "./components/_notification.css";
+
+
+
+
+*{
+    font-family: "Roboto";
+}

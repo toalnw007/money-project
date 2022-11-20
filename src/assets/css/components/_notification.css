@@ -1,0 +1,60 @@
+.notification {
+    position: relative;
+    color: white;
+}
+
+.notification__icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.notification--bullet::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+    border-radius: 9999px;
+    opacity: 0.5;
+    top: -2px;
+
+}
+
+.notification--bullet::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    right: 0;
+    border-radius: 9999px;
+    top: -2px;
+    background-color: #b91c1c
+}
+
+.notification-content{
+    width: 350px;
+}
+
+.notification-content__title {
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+
+}
+.notification-content__box {
+    padding: 1.25rem;
+}
+
+@keyframes ping {
+
+    75%,
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+;
